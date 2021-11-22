@@ -1,0 +1,25 @@
+<section class="form-crearrutas">
+    <h3>Actualizar Ruta</h3>
+    <form action="">
+        <table>
+            <tr>
+                <td>IdRuta:<br>
+                <input type="text" name="IdRuta" readonly="readonly" [(ngModel)]="ruta.Idruta" class="controlcrruta">
+                </td>
+                <td>Origen:<br>
+                <input [(ngModel)]="ruta.Origen" name="Origen" type="text" class="controlcrruta"> 
+                <td>Destino:<br>
+                <input [(ngModel)]="ruta.Destino" name="Destino" type="text" class="controlcrruta">
+            </tr>
+            <tr>
+                <td>Fecha:<br>
+                <input [(ngModel)]="ruta.Fecha" name="Fecha" type="text" class="controlcrruta">    
+                <td>Hora:<br>
+                <input [(ngModel)]="ruta.Hora" name="Hora" type="text" class="controlcrruta">
+                <td>
+                    <button (click)="Actualizar(ruta)" class="btn btn-primary" id="boton-actualizarruta">Guardar</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</section>

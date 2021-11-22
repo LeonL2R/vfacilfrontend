@@ -1,0 +1,36 @@
+{
+  "rutas": [
+    {
+      "Idruta": "1",
+      "Origen": "Cali",
+      "Destino": "Bogota",
+      "Fecha": "20-11-21",
+      "Hora": "14:30",
+      "id": 1
+    },
+    {
+      "Idruta": "2",
+      "Origen": "Medellin",
+      "Destino": "Cali",
+      "Fecha": "22-11-21",
+      "Hora": "18:00",
+      "id": 2
+    },
+    {
+      "Idruta": "3",
+      "Origen": "Bogota",
+      "Destino": "Valledupar",
+      "Fecha": "20-11-21",
+      "Hora": "14:45",
+      "id": 3
+    },
+    {
+      "Idruta": "10",
+      "Origen": "Cali",
+      "Destino": "Medellin",
+      "Fecha": "22-11-21",
+      "Hora": "14:00",
+      "id": 4
+    }
+  ]
+}

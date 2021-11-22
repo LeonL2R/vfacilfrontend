@@ -1,0 +1,34 @@
+<div class="container">
+    <div class="contador">
+            <h3>Número total de Rutas Registrada: {{rutas.length}} </h3>
+    </div>
+    <br>
+    <table class="resultados">
+        <thead>
+            <tr>
+                <th class="cabecera">Idruta</th>
+                <th class="cabecera">Origen</th>
+                <th class="cabecera">Destino</th>
+                <th class="cabecera">Fecha</th>
+                <th class="cabecera">Hora</th>
+                <th colspan="2" class="cabecera">Acción</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor ="let ruta of rutas">
+                <td>{{ruta.Idruta}}</td>
+                <td>{{ruta.Origen}}</td>
+                <td>{{ruta.Destino}}</td>
+                <td>{{ruta.Fecha}}</td>
+                <td>{{ruta.Hora}}</td>
+                <td>
+                    <button (click)="Editar(ruta)" class="btn btn-primary" id="boton-nuevo">Editar</button>
+                </td>
+                <td>
+                    <button (click)="Borrar(ruta)" class="btn btn-primary" id="boton-crear">Borrar</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
